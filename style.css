@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/23/49/80/1000_F_123498067_ufF773Ksk07VpA4s8bovUvH0TAtDSnND.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+.image {
+    background-image: url(images/lain-static2.jpeg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 65vh;
+}
+
+.image:hover {
+    background-image: url(images/second.jpg);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 2rem;
+}
